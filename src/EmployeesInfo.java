@@ -56,13 +56,11 @@ public class EmployeesInfo {
 	}
 	
 	//more complex constructor
-	public EmployeesInfo(String FirstName, String LastName, String address, String social, String phoneNum) {
-		this.FirstName = FirstName;
-		this.LastName = LastName;
-		this.address = address;
-		this.social = social;
-		this.phoneNum = phoneNum;
-		// TODO Auto-generated constructor stub
+	public EmployeesInfo(String FirstName, String LastName, String Address, String Social, String Phone) {
+		
+		this.changeInfo(FirstName, LastName, Address, Social, Phone);
+		
 	}
+
 
 }
