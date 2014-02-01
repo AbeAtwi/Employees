@@ -1,4 +1,3 @@
-
 public class EmployeesInfo {
 	
 	private String FirstName ="";//fields to hold the values entered
@@ -8,33 +7,33 @@ public class EmployeesInfo {
 	private String phoneNum = "";
 	
 	//method to get access to the private fields
-	public String getFirstName(){
+	protected final  String getFirstName(){
 		
 		return this.FirstName;
 	}
 	
-	public String getLastName(){
+	protected final String getLastName(){
 			
 			return this.LastName;
 		}
 
 
-	public String getaddress(){
+	protected final String getaddress(){
 			
 			return this.address;
 		}
 	
-	public String getSocial(){
+	protected final String getSocial(){
 			
 			return this.social;
 		}
 	
-	public String getPhoneNum(){
+	protected final String getPhoneNum(){
 			
 			return this.phoneNum;
 		}
 	
-	public Object[] getInfo(){
+	protected final Object[] getInfo(){
 		Object[] temp = new Object[]{this.FirstName, this.LastName, this.address, this.social, this.phoneNum};
 		
 		return temp;
