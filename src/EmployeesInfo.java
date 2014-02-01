@@ -39,6 +39,16 @@ public class EmployeesInfo {
 		return temp;
 	}
 	
+	protected final void changeInfo(String FirstName, String LastName, String Address, String Social, String Phone){
+		this.FirstName = FirstName;
+		this.LastName = LastName;
+		this.address = Address;
+		this.social = Social;
+		this.phoneNum = Phone;
+		
+	}
+	
+	
 	
 	//base constructor
 	public EmployeesInfo(){
