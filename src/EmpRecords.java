@@ -170,7 +170,7 @@ public class EmpRecords extends JFrame{
 					temp = temp + regexMatcher.group().trim();
 				
 			}
-			if(temp.length()!=0 || !temp.equals(""))	
+			if(temp.length()!=0)	
 				return true;
 			else
 				return false;
